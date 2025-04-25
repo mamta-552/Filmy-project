@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: black;
+}
+.font_poppins{
+    font-family: "Poppins", serif;
+}
+.font_inter{
+     font-family: "Inter", serif;
+}
+.background_linear{
+    background: linear-gradient(135deg, #F2CD75 0%, #A97424 100%);
+}
+.clr_linear_yellow {
+    background: linear-gradient(135deg, #F2CD75 0%, #A97424 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.input_seacrh_border{
+    border: 1px solid #FFFFFF80
+}
+.linear_hover:hover{
+    background: linear-gradient(135deg, #F2CD75 0%, #A97424 100%);
+} 
+
+.css-1808mag-MuiPaper-root-MuiAccordion-root {
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.css-1umw9bq-MuiSvgIcon-root {
+    /* user-select: none; */
+    width: 30px !important;
+    height: 30px !important;
+    fill: white !important;
+}
+
+.css-1cqj0g3-MuiTypography-root {
+    margin: 0;
+   font-family: "Poppins", serif !important;
+    font-weight: 600 !important;
+    /* font-size: 24px !important; */
+    /* line-height: 26.4px !important; */
+      background: linear-gradient(135deg, #F2CD75 0%, #A97424 100%) !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.css-rizt0-MuiTypography-root {
+    margin-top: 13px !important;
+    font-family: "Poppins", serif !important;
+    font-weight: 400 !important;
+    /* font-size: 16px !important; */
+    /* line-height: 24px !important; */
+    color: #6C757D !important;
+}
+.css-1lj39kh-MuiAccordionDetails-root {
+    padding: 0 !important;
+}
+.css-yfrx4k-MuiAccordionSummary-content {
+    margin:  0 !important;
+    color: red !important;
+}
+.css-1f1pi2l-MuiButtonBase-root-MuiAccordionSummary-root {
+    padding: 0px !important;
+}
+
+
+.MuiAccordion-heading{
+    color: white !important;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.slider {
+  animation: scroll 8s linear infinite;
+
+}
+
+@keyframes scroll2 {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.slider2 {
+  animation: scroll2 8s linear infinite;
+
+}
+.bell_hover:hover svg path {
+    fill:linear-gradient(135deg, #F2CD75 0%, #A97424 100%);
+}
+
+.scroll_hide::-webkit-scrollbar{
+  display: none;
+}
+
+.bg_hover:hover{
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 100%);
+}
+.slick-dots li button:before {
+    color:white !important;  /* Change dot color */
+    font-size: 12px;  /* Adjust dot size */
+}
+
+.slick-dots li.slick-active button:before {
+    color: white !important;  /* Active dot color */
+}
