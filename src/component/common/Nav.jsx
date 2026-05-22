@@ -64,7 +64,7 @@ const Nav = () => {
 
             </div>
 
-            <div onClick={handleToggleNav} class="flex justify-end  lg:hidden z-10 cursor-pointer">
+            <div onClick={handleToggleNav} className="flex justify-end  lg:hidden z-10 cursor-pointer">
               <div style={{ transform: toggleNav ? "rotate(45deg)" : "rotate(0deg)", transition: "transform 0.3s" }}>
                 <span style={{
                   transform: toggleNav ? "rotate(-5deg) translate(10px, 5px)" : "rotate(0deg)",
